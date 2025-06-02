@@ -72,7 +72,7 @@ def update_forecast(region, horizon): #when an input in the above decorator chan
     return fig
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8050, debug=True) #0.0.0.0 necessary for docker to expose the port outward, and make it reachable from browser
 
 #check at: http://127.0.0.1:8050/
 # %%

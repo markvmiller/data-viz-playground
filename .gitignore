@@ -1,3 +1,4 @@
 dataviz_env/
 create*
 dash/__pycache*
+streamlit/__pycache*
