@@ -1,0 +1,5 @@
+ipykernel
+dash
+streamlit
+pandas
+statsmodels
